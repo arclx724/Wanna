@@ -29,7 +29,7 @@ from telethon import TelegramClient, errors
 from telethon.sessions import StringSession
 
 # ---- Config ----
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("8027957940:AAGhcwmiHk6B2XK6EMf5TAj9ahyHOPkJ2vU", "")
 DATA_DIR = Path(".")
 SESSIONS_DIR = DATA_DIR / "sessions"
 DB_FILE = DATA_DIR / "links.db"
